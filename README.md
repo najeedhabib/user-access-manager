@@ -2,13 +2,13 @@
 
 This repository contains the code for the Assignment app. The app is built using Docker for easy setup and deployment.
 
-## How to Run the App
+# How to Run the App
 
-### Prerequisites
+## Prerequisites
 
-Make sure you have Docker installed on your system. If you don't have it, you can download and install Docker from the official website: [https://www.docker.com/get-started](https://www.docker.com/get-started)
+Docker
 
-### Steps to Run the App
+## Steps to Run the App
 
 1. Open a terminal or command prompt.
 
@@ -19,3 +19,5 @@ Make sure you have Docker installed on your system. If you don't have it, you ca
 ```bash
 docker compose up
 ```
+
+The app will start, and you can access it in your web browser at localhost:3000.
