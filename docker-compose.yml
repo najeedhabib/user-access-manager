@@ -1,0 +1,14 @@
+services:
+  backend:
+    image: "nh289/user-backend"
+    container_name: "backend"
+    ports:
+      - "8080:8080"
+
+  frontend:
+    image: "nh289/user-frontend"
+    container_name: "frontend"
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
