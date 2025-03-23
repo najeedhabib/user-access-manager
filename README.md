@@ -1,6 +1,4 @@
-# Assignment Repository
 
-This repository contains the code for the Assignment app. The app is built using Docker for easy setup and deployment.
 
 # How to Run the App
 
